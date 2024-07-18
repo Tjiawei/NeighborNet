@@ -5,7 +5,9 @@ If you have any questions before the code is released, please contact the first 
 
 Once I secure a job, I will promptly release codes publicly.
 
-# Quote
+## Quote
+
+```
 @InProceedings{vsd_neighbor,
     author    = {Tan, Jiawei and Wang, Hongxing and Li, Jiaxin and Ou, Zhilong and Qian, Zhangbin},
     title     = {Neighbor Relations Matter in Video Scene Detection},
@@ -14,3 +16,4 @@ Once I secure a job, I will promptly release codes publicly.
     year      = {2024},
     pages     = {18473-18482}
 }
+```
