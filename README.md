@@ -3,7 +3,7 @@ This is an official PyTorch Implementation of **Neighbor Relations Matter in Vid
 
 If you have any questions before the code is released, please contact the first author.
 
-Once I secure a job, I will promptly release codes publicly.
+The data preprocessing, training code, and trained model are expected to be made public by the end of September.
 
 ## Quote
 
