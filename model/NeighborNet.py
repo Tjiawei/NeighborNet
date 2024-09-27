@@ -6,7 +6,7 @@ from model.context import SimilarNet, ReasonNet
 from model.detector import LatentDetector, BaSSLDet
 
 
-class NNet(nn.Module):
+class SLet(nn.Module):
     def __init__(self, shot_dim=1920, embed_dim=1920, att_drop=0.1, seg_sz=20, topk=4, tnei=2, mode='pretrain'):
         super().__init__()
         self.embed_pos = SineActivation(n_shot=seg_sz, out_features=256)
