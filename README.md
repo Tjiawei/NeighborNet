@@ -1,10 +1,6 @@
 # Neighbor Relations Matter in Video Scene Detection
 This is an official PyTorch Implementation of **Neighbor Relations Matter in Video Scene Detection**.
 
-If you have any questions before the code is released, please contact the first author.
-
-The data preprocessing, training code, and trained model are expected to be made public by the end of September.
-
 ## Generate Graph Files
 https://pan.baidu.com/s/1sodKXth7GgHztkHp7tsN8A 提取码: 2345 
 
