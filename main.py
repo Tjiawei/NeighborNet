@@ -4,7 +4,7 @@ from torch.autograd import Variable
 from tqdm import tqdm
 
 from dataloader.supervise_movienet import load_data, load_transfer, load_data_abl
-from model.SLNet import SLNet
+from model.NeighborNet import SLNet
 from loss import bce, sigmoid_focal
 from warm_up import warmup_decay_cosine
 from metric import metric
