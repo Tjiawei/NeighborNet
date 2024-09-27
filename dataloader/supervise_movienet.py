@@ -68,7 +68,7 @@ def gen_dataSet(ft_path, lb_path, gph_path, seg_sz=20, dim=2048, save_path=None)
             sample = {'data': ctx, 'label': c_label, 'hop': hop_link}
             write_pkl(shot_path, sample)
 
-        return 1
+
 
     return 1
 
