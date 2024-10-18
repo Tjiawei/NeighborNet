@@ -3,8 +3,9 @@ This is an official PyTorch Implementation of **Neighbor Relations Matter in Vid
 
 ## Prepare Dataset
 1. Refer to https://github.com/mini-mind/VSMBD
-2. The unsupervised learning settings also refer to https://github.com/mini-mind/VSMBD, 
-and the label generation method is changed to https://github.com/kakaobrain/bassl
+2. The unsupervised learning (self-supeivised learning) settings also refer to https://github.com/mini-mind/VSMBD, 
+and the pseudo labels generation method is changed to https://github.com/kakaobrain/bassl
+3. Generate the dataset by running gen_dataSet in dataloader/supervise_movienet.py; ft_path is the path of ImageNet_shot.pkl extracted by VSMBD. lb_path is the path of the txt file provided by MovieNet. Each txt file name is the IMDB ID of each movie, which marks whether each shot is the end shot (the last shot) of the scene; gph_path is the file path after the sample_20.rar I provided is unzipped. 
 
 ## Generate Graph Files
 https://pan.baidu.com/s/1sodKXth7GgHztkHp7tsN8A 提取码: 2345 
