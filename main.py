@@ -116,7 +116,7 @@ def main(
     testload = load_data(sample_path, split_path, 512, mode='test', topk=5)
     # trasferload = load_transfer(sample_path, 512)
 
-    model = SLNet(2048, embed_dim=1024, att_drop=0.1, win_size=5, topk=5, seg_sz=20, tnei=2, mode='fine')
+    model = SLNet(2048, embed_dim=1024, att_drop=0.1, topk=5, seg_sz=20, tnei=2, mode='fine')
     # frozen = ['embed_pos', 's1']
     re_inin = 'detect'
     if model_path is not None:
