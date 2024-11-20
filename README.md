@@ -21,7 +21,7 @@ https://pan.baidu.com/s/1sodKXth7GgHztkHp7tsN8A 提取码: 2345
 
   mAP:72.2, mIoU:57.3, F1:54.0
   
-  https://pan.baidu.com/s/1H0fLFzbFuibguq6y587OyQ 提取码：1357
+  https://pan.baidu.com/s/1H0fLFzbFuibguq6y587OyQ 提取码: 1357
 
 
 
