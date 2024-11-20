@@ -11,13 +11,19 @@ and the pseudo label generation method is changed to https://github.com/kakaobra
 https://pan.baidu.com/s/1sodKXth7GgHztkHp7tsN8A 提取码: 2345 
 
 ## Supervised Model
-A better learning strategy may have better results. 
+- A better learning strategy may have better results. The following checkpoint is what I trained casually.
+- Original model using the NeighborAttent and BasicReason modules.
+- 
+  mAP:64.1, mIoU:59.2, F1:57.3
+  
+  https://pan.baidu.com/s/1uK0VJ3A2qNte9bOZPcbSWg 提取码: 2345
+- An upgraded version of the original model using the MNeighborAttent and MBasicReason modules.
 
-The following checkpoint is what I trained casually.
+  mAP:72.2, mIoU:57.3, F1:54.0
+  
+  https://pan.baidu.com/s/1H0fLFzbFuibguq6y587OyQ 提取码：1357
 
-mAP:64.1, mIoU:59.2, F1:57.3
 
-https://pan.baidu.com/s/1uK0VJ3A2qNte9bOZPcbSWg 提取码: 2345 
 
 ## To Do
 1. Detailed comments
