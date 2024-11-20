@@ -13,7 +13,7 @@ https://pan.baidu.com/s/1sodKXth7GgHztkHp7tsN8A 提取码: 2345
 ## Supervised Model
 - A better learning strategy may have better results. The following checkpoint is what I trained casually.
 - Original model using the NeighborAttent and BasicReason modules.
-- 
+  
   mAP:64.1, mIoU:59.2, F1:57.3
   
   https://pan.baidu.com/s/1uK0VJ3A2qNte9bOZPcbSWg 提取码: 2345
