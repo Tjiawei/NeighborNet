@@ -14,7 +14,7 @@ window centered on the shot-i with a length of $l$." （In the lower part of Eq.
 
 If you are interested in the implementation details of generating this graph, please see issue https://github.com/ExMorgan-Alter/NeighborNet/issues/4.
 
-https://pan.baidu.com/s/1sodKXth7GgHztkHp7tsN8A 提取码: 2345 
+https://pan.baidu.com/s/1sodKXth7GgHztkHp7tsN8A Code: 2345 
 
 ## Supervised Model
 - A better learning strategy may have better results. The following checkpoint is what I trained casually.
