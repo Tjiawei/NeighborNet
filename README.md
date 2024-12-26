@@ -22,12 +22,12 @@ https://pan.baidu.com/s/1sodKXth7GgHztkHp7tsN8A 提取码: 2345
   
   ~~mAP:64.1, mIoU:59.2, F1:57.3~~
   
- ~~https://pan.baidu.com/s/1uK0VJ3A2qNte9bOZPcbSWg 提取码: 2345~~
+ ~~https://pan.baidu.com/s/1uK0VJ3A2qNte9bOZPcbSWg Code: 2345~~
 - An upgraded version of the original model using the MNeighborAttent and MBasicReason modules.
 
   mAP:72.2, mIoU:57.3, F1:54.0
   
-  https://pan.baidu.com/s/1H0fLFzbFuibguq6y587OyQ 提取码: 1357
+  https://pan.baidu.com/s/1H0fLFzbFuibguq6y587OyQ Code: 1357
 
 
 
