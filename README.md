@@ -3,10 +3,14 @@
 This is an official PyTorch Implementation of **Neighbor Relations Matter in Video Scene Detection**.
 
 ## Prepare Dataset
-1. Refer to https://github.com/mini-mind/VSMBD
-2. The unsupervised learning (self-supeivised learning) settings also refer to https://github.com/mini-mind/VSMBD, 
+1. Download processed features for MovieNet Dataset (Backbone is ResNet-50 Pretrained on ImageNet)
+   Link：https://pan.quark.cn/s/c579c7217448 Code：RV7C
+   
+   (If you are interested in how to process this dataset, please refer to https://github.com/mini-mind/VSMBD）
+3. Download MovieNet dataset label: https://drive.google.com/drive/folders/1F-uqCKnhtSdQKcDUiL3dRcLOrAxHargz
+4. The unsupervised learning (self-supeivised learning) settings also refer to https://github.com/mini-mind/VSMBD, 
 and the pseudo label generation method is changed to https://github.com/kakaobrain/bassl
-3. Generate the dataset by running gen_dataSet in dataloader/supervise_movienet.py; ft_path is the path of ImageNet_shot.pkl extracted by VSMBD. lb_path is the path of the txt file provided by MovieNet. Each txt file name is the IMDB ID of each movie, in which each element marks whether each shot is the end shot (the last shot) of the scene; gph_path is the file path after the sample_20.rar I provided is unzipped. 
+5. Generate the dataset by running gen_dataSet in dataloader/supervise_movienet.py; ft_path is the saving path of ImageNet_shot.pkl downloaded from step 1. lb_path is the saving path of the txt file download from step 2. Each txt file name is the IMDB ID of each movie, in which each element marks whether each shot is the end shot (the last shot) of the scene; gph_path is the file path after the sample_20.rar below. 
 
 ## Generate Graph Files
 The file in sample_20 corresponds to the sentence $N^{l}_{i}$ signifies the top-k similar shots to the shot-i within a time
